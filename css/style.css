@@ -35,7 +35,7 @@ h1{
     border-color: #F0544F;
     display: grid;
 
-    grid-template-columns: repeat(16, 43.75px);
+    grid-template-columns: repeat(16, 43.75px)  ;
     
 }
 
@@ -54,22 +54,9 @@ h1{
 
 
 .gridOff{
-
-    border-style: solid;
-    border-width: 1px;
-    border-color: #C6D8D3;
-
     background-color: #FDF0D5;
-    width: 43.75px;
-    height: 43.75px;
 }
 
 .gridOn{
-    border-style: solid;
-    border-width: 1px;
-    border-color: #C6D8D3;
-
     background-color: #3A3335;
-    width: 43.75px;;
-    height: 43.75px;;
 }
