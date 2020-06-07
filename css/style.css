@@ -1,0 +1,75 @@
+html, body{
+    height: 100%;
+    width: auto;
+    background-color: #FDF0D5;
+}
+
+.titleHolder{
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+h1{
+    color: #3A3335;
+    text-decoration: underline #D81E5B;
+}
+
+.buttonHolder{
+    display: flex;
+    justify-content: center;
+}
+
+.gridPOS{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.gridHolder{
+    height: 700px;
+    width: 700px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #F0544F;
+    display: grid;
+
+    grid-template-columns: repeat(16, 43.75px);
+    
+}
+
+.btn{
+ background-color: #C6D8D3;
+ border-radius: 5px;
+ height: 50px;
+ width: 100px;
+ margin: 10px;
+
+ border-style: solid;
+ border-width: 2px;
+ border-color: #D81E5B;
+ 
+}
+
+
+.gridOff{
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: #C6D8D3;
+
+    background-color: #FDF0D5;
+    width: 43.75px;
+    height: 43.75px;
+}
+
+.gridOn{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #C6D8D3;
+
+    background-color: #3A3335;
+    width: 43.75px;;
+    height: 43.75px;;
+}
