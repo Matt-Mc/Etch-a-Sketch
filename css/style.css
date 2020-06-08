@@ -35,7 +35,6 @@ h1{
     border-color: #F0544F;
     display: grid;
 
-    grid-template-columns: repeat(16, 43.75px)  ;
     
 }
 
